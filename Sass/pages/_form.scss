@@ -1,0 +1,80 @@
+body {
+  background-color: #fff5;
+}
+.register {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: rgb(221, 237, 244);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+  padding: 40px 0px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px gray;
+
+  &__title {
+    font-size: 32px;
+    padding: 30px 0px;
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__btn {
+    background-color: blue;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    &:hover {
+      background: rgb(5, 5, 172);
+    }
+  }
+}
+
+label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+input {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid gray;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+table {
+  margin-top: 30px;
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: black;
+  border-radius: 10px;
+}
+
+th,
+td {
+  color: white;
+  padding: 10px;
+}
+
+.table__dawn {
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+  text-align: center;
+}
